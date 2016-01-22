@@ -1,0 +1,469 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Juiz Last Tweet Widget v1.3.3.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-11-21 08:44:37+0000\n"
+"Last-Translator: admin <tochka.asia@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin/jltw-admin.inc.php:13
+#: admin/jltw-admin.inc.php:14
+#@ juiz_ltw
+msgid "Last Tweet Widget"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:70
+#@ juiz_ltw
+msgid "Twitter API 1.1 Settings"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:72
+#@ juiz_ltw
+msgid "API Key"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:73
+#@ juiz_ltw
+msgid "API Secret"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:74
+#@ juiz_ltw
+msgid "Access Token"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:75
+#@ juiz_ltw
+msgid "Access Token Secret"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:77
+#@ juiz_ltw
+msgid "General settings"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:78
+#@ juiz_ltw
+msgid "Use default appareance/styles?"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:79
+#@ juiz_ltw
+msgid "Which style do you want?"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:81
+#@ juiz_ltw
+msgid "Customization"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:82
+#@ juiz_ltw
+msgid "Color for hashtag links"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:82
+#: admin/jltw-admin.inc.php:83
+#: admin/jltw-admin.inc.php:84
+#: admin/jltw-admin.inc.php:85
+#@ juiz_ltw
+msgid "Hexadecimal value"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:83
+#@ juiz_ltw
+msgid "Color for user links"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:84
+#@ juiz_ltw
+msgid "Color for classical links"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:85
+#@ juiz_ltw
+msgid "Color for background"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:120
+#@ juiz_ltw
+msgid "You need to create a Twitter plugin to use Juiz Last Tweet Widget because of new API 1.1 rules of Twitter."
+msgstr ""
+
+#: admin/jltw-admin.inc.php:120
+#@ juiz_ltw
+msgid "How to?"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:122
+#, php-format
+#@ juiz_ltw
+msgid "Go to the %sTwitter Developer Center%s to create an app, and create an account if necessary (you can use your Twitter account)"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:123
+#@ juiz_ltw
+msgid "Give it a name, description and website, at least, and validate"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:124
+#@ juiz_ltw
+msgid "In the next page, find the 4 informations (API key, API secret, Access token and Access token secret)."
+msgstr ""
+
+#: admin/jltw-admin.inc.php:125
+#@ juiz_ltw
+msgid "Write them in the fields below (they are big strings of characters)."
+msgstr ""
+
+#: admin/jltw-admin.inc.php:176
+#@ juiz_ltw
+msgid "Some general settings"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:188
+#@ juiz_ltw
+msgid "Yes"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:190
+#@ juiz_ltw
+msgid "No"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:202
+#@ juiz_ltw
+msgid "Default style"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:204
+#@ juiz_ltw
+msgid "Flat Light style"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:205
+#@ juiz_ltw
+msgid "Flat Dark style"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:207
+#@ juiz_ltw
+msgid "Help"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:209
+#@ juiz_ltw
+msgid "Light style is when you have light background color (need dark texts). Dark style&hellip; is the opposite"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:215
+#@ juiz_ltw
+msgid "You can now customize some colors!"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:263
+#, php-format
+#@ juiz_ltw
+msgid "You need to activate one of the %sprevious Flat Style%s"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:266
+#, php-format
+#@ juiz_ltw
+msgid "You should use the %sLight Flat style%s to have better color contrast"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:269
+#, php-format
+#@ juiz_ltw
+msgid "You should use the %sDark Flat style%s to have better color contrast"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:285
+#@ juiz_ltw
+msgid "Manage Juiz Last Tweet Widget"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:288
+#, php-format
+#@ juiz_ltw
+msgid "You can use %s[jltw]%s or %s[tweets]%s shortcode with some attributes."
+msgstr ""
+
+#: admin/jltw-admin.inc.php:290
+#@ juiz_ltw
+msgid "Example with all available attributes:"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:293
+#, php-format
+#@ juiz_ltw
+msgid "See %sthe documentation%s for more information"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:321
+#@ juiz_ltw
+msgid "Like it? Support this plugin! Thank you."
+msgstr ""
+
+#: admin/jltw-admin.inc.php:322
+#@ juiz_ltw
+msgid "Donate"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:323
+#@ juiz_ltw
+msgid "Tweet it"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:324
+#@ juiz_ltw
+msgid "Rate it"
+msgstr ""
+
+#: admin/jltw-admin.inc.php:325
+#@ juiz_ltw
+msgid "Documentation"
+msgstr ""
+
+#: juiz-last-tweet.php:97
+#@ juiz_ltw
+msgid "Don't worry!"
+msgstr ""
+
+#: juiz-last-tweet.php:98
+#, php-format
+#@ juiz_ltw
+msgid "But you need to %scomplete the %sJuiz Last Tweet Widget%s options page%s if you want to display your latest tweets."
+msgstr ""
+
+#: juiz-last-tweet.php:103
+#, php-format
+#@ juiz_ltw
+msgid "This plugin use the %scurl_init()%s function, but your PHP configuration doesn't allow it. You need to activate this feature to use this plugin. Thank you."
+msgstr ""
+
+#: juiz-last-tweet.php:125
+#@ default
+msgid "Widgets"
+msgstr ""
+
+#: juiz-last-tweet.php:126
+#@ default
+msgid "Settings"
+msgstr ""
+
+#: juiz-last-tweet.php:136
+#@ juiz_ltw
+msgid "List you last tweet by displaying content, date, and link to follow you"
+msgstr ""
+
+#: juiz-last-tweet.php:141
+#@ juiz_ltw
+msgid "Juiz Last Tweet"
+msgstr ""
+
+#: juiz-last-tweet.php:177
+#@ juiz_ltw
+msgid "Title"
+msgstr ""
+
+#: juiz-last-tweet.php:186
+#@ juiz_ltw
+msgid "Preferences"
+msgstr ""
+
+#: juiz-last-tweet.php:189
+#@ juiz_ltw
+msgid "Username"
+msgstr ""
+
+#: juiz-last-tweet.php:190
+#@ juiz_ltw
+msgid "No @, just your username"
+msgstr ""
+
+#: juiz-last-tweet.php:193
+#@ juiz_ltw
+msgid "Number of tweets to show"
+msgstr ""
+
+#: juiz-last-tweet.php:194
+#@ juiz_ltw
+msgid "Just a number, between 1 and 5 for example"
+msgstr ""
+
+#: juiz-last-tweet.php:197
+#@ juiz_ltw
+msgid "Duration of cache"
+msgstr ""
+
+#: juiz-last-tweet.php:198
+#: juiz-last-tweet.php:214
+#: juiz-last-tweet.php:315
+#@ juiz_ltw
+msgid "Seconds"
+msgstr ""
+
+#: juiz-last-tweet.php:198
+#@ juiz_ltw
+msgid "A big number save your page speed. Try to use the delay between each tweet you make. (e.g. 1800 s = 30 min)"
+msgstr ""
+
+#: juiz-last-tweet.php:201
+#@ juiz_ltw
+msgid "Show your avatar?"
+msgstr ""
+
+#: juiz-last-tweet.php:202
+#@ juiz_ltw
+msgid "If it's possible, display your avatar at the top of tweets list"
+msgstr ""
+
+#: juiz-last-tweet.php:205
+#@ juiz_ltw
+msgid "Show action links?"
+msgstr ""
+
+#: juiz-last-tweet.php:206
+#@ juiz_ltw
+msgid "Display action links like Retweet, Reply and Fav"
+msgstr ""
+
+#: juiz-last-tweet.php:209
+#@ juiz_ltw
+msgid "Auto slide one by one?"
+msgstr ""
+
+#: juiz-last-tweet.php:210
+#@ juiz_ltw
+msgid "Use JavaScript to activate an little slider showing tweet by tweet"
+msgstr ""
+
+#: juiz-last-tweet.php:213
+#@ juiz_ltw
+msgid "Delay between 2 tweets?"
+msgstr ""
+
+#: juiz-last-tweet.php:214
+#@ juiz_ltw
+msgid "Chose a delay if you use the auto slide feature."
+msgstr ""
+
+#: juiz-last-tweet.php:220
+#@ juiz_ltw
+msgid "Manage CSS"
+msgstr ""
+
+#: juiz-last-tweet.php:222
+#@ juiz_ltw
+msgid "Your own CSS"
+msgstr ""
+
+#: juiz-last-tweet.php:222
+#@ juiz_ltw
+msgid "Write your CSS here to replace or overwrite the default CSS"
+msgstr ""
+
+#: juiz-last-tweet.php:315
+#@ juiz_ltw
+msgid "Second"
+msgstr "секунда"
+
+#: juiz-last-tweet.php:319
+#@ juiz_ltw
+msgid "Minutes"
+msgstr "минут"
+
+#: juiz-last-tweet.php:319
+#@ juiz_ltw
+msgid "Minute"
+msgstr "минута"
+
+#: juiz-last-tweet.php:323
+#@ juiz_ltw
+msgid "Hours"
+msgstr "часов"
+
+#: juiz-last-tweet.php:323
+#@ juiz_ltw
+msgid "Hour"
+msgstr "час"
+
+#: juiz-last-tweet.php:327
+#@ juiz_ltw
+msgid "Days"
+msgstr "дней"
+
+#: juiz-last-tweet.php:327
+#@ juiz_ltw
+msgid "Day"
+msgstr "день"
+
+#: juiz-last-tweet.php:441
+#: juiz-last-tweet.php:584
+#@ juiz_ltw
+msgid "Follow"
+msgstr "Читать"
+
+#: juiz-last-tweet.php:441
+#: juiz-last-tweet.php:586
+#@ juiz_ltw
+msgid "on twitter."
+msgstr "на Twitter"
+
+#: juiz-last-tweet.php:483
+#@ jltw_lang
+msgid "via"
+msgstr ""
+
+#: juiz-last-tweet.php:488
+#@ juiz_ltw
+msgid "Time ago"
+msgstr "назад"
+
+#: juiz-last-tweet.php:490
+#@ juiz_ltw
+msgid "See the status"
+msgstr "Смотреть статус"
+
+#: juiz-last-tweet.php:511
+#@ juiz_ltw
+msgid "Reply"
+msgstr "Ответить"
+
+#: juiz-last-tweet.php:512
+#@ juiz_ltw
+msgid "Retweet"
+msgstr "Ретвит"
+
+#: juiz-last-tweet.php:513
+#@ juiz_ltw
+msgid "Favorite"
+msgstr ""
+
+#: juiz-last-tweet.php:555
+#@ juiz_ltw
+msgid "The RSS feed for this twitter account is not loadable for the moment."
+msgstr ""
+
+#: juiz-last-tweet.php:757
+#, php-format
+#@ juiz_ltw
+msgid "%s: Widget class not found."
+msgstr ""
+
